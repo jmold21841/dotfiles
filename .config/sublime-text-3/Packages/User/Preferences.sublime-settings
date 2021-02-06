@@ -1,0 +1,11 @@
+{
+	"font_face": "JetBrainsMono Nerd Font",
+	"font_size": 16,
+	"rulers":
+	[
+		80,
+		120
+	],
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true
+}
