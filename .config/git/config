@@ -1,0 +1,14 @@
+[user]
+	email = ethan.henderson.1998@gmail.com
+	name = Ethan Henderson
+[pull]
+	rebase = false
+[core]
+	excludesFile = ~/.config/git/ignore
+[alias]
+	lp = log --pretty=oneline
+	lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
+	c = commit
+	s = status -sb
+[init]
+	defaultBranch = main
