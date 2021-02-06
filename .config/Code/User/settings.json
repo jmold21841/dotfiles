@@ -1,0 +1,22 @@
+{
+    "window.zoomLevel": 0,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font, Regular",
+    "editor.fontFamily": "JetBrainsMono Nerd Font, Regular",
+    "editor.fontSize": 16,
+    "workbench.colorTheme": "Monokai",
+    "files.autoSave": "afterDelay",
+    "workbench.editorAssociations": [],
+    "tabnine.experimentalAutoImports": true,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontSize": 15,
+    "editor.rulers": [
+    80, 120
+    ],
+    "jupyter.alwaysTrustNotebooks": true,
+    "explorer.confirmDragAndDrop": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "jupyter.askForKernelRestart": false
+}
