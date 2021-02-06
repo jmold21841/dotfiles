@@ -1,0 +1,17 @@
+# Places
+alias data="cd /mnt/Data"
+alias sg="cd /media/parafoxia/Seagate"
+
+# Terminal
+alias c="clear"
+alias q="exit"
+alias au="sudo apt update && sudo apt upgrade -y --allow-downgrades && sudo apt autoremove -y"
+alias sz="source ~/.config/zsh/.zshrc"
+alias va="source ./.venv/bin/activate"
+alias vd="deactivate"
+alias la="ls -A"
+
+# Git
+alias gl="git log --pretty=oneline"
+alias glp="git log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'"
+alias dfg="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
