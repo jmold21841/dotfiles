@@ -1,7 +1,7 @@
 # Terminal
 alias c="clear"
 alias q="exit"
-alias au="sudo apt update && sudo apt upgrade -y --allow-downgrades && sudo apt autoremove -y"
+alias au="sudo apt update && sudo apt upgrade -y --allow-downgrades && sudo apt autoremove -y && sudo apt clean"
 alias sz="source ~/.config/zsh/.zshrc"
 alias va="source ./.venv/bin/activate"
 alias vd="deactivate"
