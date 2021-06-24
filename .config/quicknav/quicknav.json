@@ -1,0 +1,63 @@
+{
+  "shortcuts": [
+    {
+      "name": "carberretta",
+      "description": "carberretta",
+      "location": "/mnt/Data/Programs/GitHub/carberra/Carberretta",
+      "calls": [
+        "carberretta"
+      ]
+    },
+    {
+      "name": "analytix",
+      "description": "analytix",
+      "location": "/mnt/Data/Programs/GitHub/parafoxia/analytix",
+      "calls": [
+        "analytix"
+      ]
+    },
+    {
+      "name": "tuts",
+      "description": "tuts",
+      "location": "/mnt/Data/Programs/GitHub/carberra/tutorials",
+      "calls": [
+        "tuts"
+      ]
+    },
+    {
+      "name": "zsh",
+      "description": "zsh",
+      "location": "/home/parafoxia/.config/zsh",
+      "calls": [
+        "zsh"
+      ]
+    },
+    {
+      "name": "tbot",
+      "description": "tbot",
+      "location": "/mnt/Data/Programs/GitHub/carberra/tutorials-twitch-bot",
+      "calls": [
+        "tbot"
+      ]
+    },
+    {
+      "name": "maisy",
+      "description": "maisy",
+      "location": "/mnt/Data/Programs/GitHub/parafoxia/Maisy",
+      "calls": [
+        "maisy"
+      ]
+    },
+    {
+      "name": "diss",
+      "description": "diss",
+      "location": "/mnt/Data/Documents/University/Assignments/Project/Assignment 2/",
+      "calls": [
+        "diss"
+      ]
+    }
+  ],
+  "options": {
+    "create_missing_directories": false
+  }
+}

@@ -6,6 +6,9 @@ alias sz="source ~/.config/zsh/.zshrc"
 alias va="source ./.venv/bin/activate"
 alias vd="deactivate"
 alias la="ls -A"
+alias pypi="rm -rf dist && python -m build && python -m twine upload dist/*"
+alias testpypi="rm -rf dist && python -m build && python -m twine upload --repository testpypi dist/*"
+alias aliases="nano ~/.config/zsh/.zshaliases"
 
 # Git
 alias dfg="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"

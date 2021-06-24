@@ -1,16 +1,18 @@
 {
-    "window.zoomLevel": 0,
-    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font, Regular",
-    "editor.fontFamily": "JetBrainsMono Nerd Font, Regular",
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace",
+    "editor.fontFamily": "'FiraCode Nerd Font', monospace",
     "editor.fontSize": 16,
-    "workbench.colorTheme": "Monokai",
-    "files.autoSave": "afterDelay",
-    "workbench.editorAssociations": [],
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
     "tabnine.experimentalAutoImports": true,
     "editor.fontLigatures": true,
     "terminal.integrated.fontSize": 15,
     "editor.rulers": [
-    80, 120
+        80, 100, 120
     ],
     "jupyter.alwaysTrustNotebooks": true,
     "explorer.confirmDragAndDrop": false,
@@ -18,5 +20,13 @@
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "jupyter.askForKernelRestart": false
+    "jupyter.askForKernelRestart": false,
+    "explorer.confirmDelete": false,
+    "latex-workshop.message.update.show": false,
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "python.showStartPage": false,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.activeIconPack": ""
 }

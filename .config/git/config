@@ -6,8 +6,7 @@
 [core]
 	excludesFile = ~/.config/git/ignore
 [alias]
-	lp = log --pretty=oneline
-	lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
-	s = status -sb
+	lp = log --graph --oneline
+	s = status -sb --show-stash
 [init]
 	defaultBranch = main

@@ -8,3 +8,4 @@ export XDG_DATA_HOME="$HOME/.local/share"
 # ZSH Directories
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 export ZSH_CUSTOM="$ZDOTDIR/oh-my-zsh/custom"
+. "$HOME/.cargo/env"

@@ -1,11 +1,12 @@
 {
 	"font_face": "JetBrainsMono Nerd Font",
-	"font_size": 16,
+	"font_size": 18,
 	"rulers":
 	[
 		80,
 		120
 	],
 	"theme": "Adaptive.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
 }
