@@ -6,9 +6,13 @@ alias sz="source ~/.config/zsh/.zshrc"
 alias va="source ./.venv/bin/activate"
 alias vd="deactivate"
 alias la="ls -A"
-alias pypi="rm -rf dist && python -m build && python -m twine upload dist/*"
-alias testpypi="rm -rf dist && python -m build && python -m twine upload --repository testpypi dist/*"
+
+# Development
+alias pypi="pip install -U build twine && rm -rf dist && python -m build && python -m twine upload dist/*"
+alias testpypi="pip install -U build twine && rm -rf dist && python -m build && python -m twine upload --repository testpypi dist/*"
 alias aliases="nano ~/.config/zsh/.zshaliases"
+alias count="find . -name '*.py' | sed 's/.*/\"&\"/' | xargs  wc -l"
+alias slack="isort . && black ."
 
 # Git
 alias dfg="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
