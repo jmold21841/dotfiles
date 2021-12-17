@@ -26,4 +26,4 @@ source $ZDOTDIR/.zshaliases
 
 # Evals
 eval "$(starship init zsh)"
-eval "$(quicknav init zsh)"
+#eval "$(quicknav init zsh)"

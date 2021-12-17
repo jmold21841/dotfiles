@@ -8,5 +8,6 @@
 [alias]
 	lp = log --graph --oneline
 	s = status -sb --show-stash
+	ds = diff --shortstat
 [init]
 	defaultBranch = main
