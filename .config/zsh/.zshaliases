@@ -5,7 +5,10 @@ alias au="sudo apt update && sudo apt upgrade -y --allow-downgrades && sudo apt 
 alias sz="source ~/.config/zsh/.zshrc"
 alias va="source ./.venv/bin/activate"
 alias vd="deactivate"
+alias venv9="python3.9 -m venv .venv && va && pip install -U pip"
+alias venv10="python3.10 -m venv .venv && va && pip install -U pip"
 alias la="ls -A"
+alias prune="find . -type d -name .venv -prune -exec rm -rf {} \; && find . -type d -name .nox -prune -exec rm -rf {} \;"
 
 # Development
 alias pypi="pip install -U build twine && rm -rf dist && python -m build && python -m twine upload dist/*"

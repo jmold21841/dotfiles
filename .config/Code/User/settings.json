@@ -2,17 +2,19 @@
     "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace",
     "editor.fontFamily": "'FiraCode Nerd Font', monospace",
     "editor.fontSize": 16,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.nsx": "default",
+        "*.mp3": "default",
+        "*.nsp": "default",
+        "*.nsc": "default",
+        "*.zip": "default"
+    },
     "tabnine.experimentalAutoImports": true,
     "editor.fontLigatures": true,
     "terminal.integrated.fontSize": 15,
     "editor.rulers": [
-        80, 100, 120
+        72, 79, 88, 99, 119
     ],
     "jupyter.alwaysTrustNotebooks": true,
     "explorer.confirmDragAndDrop": false,
@@ -23,10 +25,44 @@
     "jupyter.askForKernelRestart": false,
     "explorer.confirmDelete": false,
     "latex-workshop.message.update.show": false,
-    "workbench.colorTheme": "Ayu Mirage Bordered",
     "python.showStartPage": false,
     "kite.showWelcomeNotificationOnStartup": false,
-    "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.theme": "classic",
-    "material-icon-theme.activeIconPack": ""
+    "material-icon-theme.activeIconPack": "",
+    "workbench.iconTheme": "ayu",
+    "workbench.startupEditor": "none",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "rust-analyzer.highlightRelated.references": false,
+    "rust-analyzer.inlayHints.enable": false,
+    "csv-preview.lineNumbers": "source",
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    // "workbench.colorCustomizations": {
+    //     "editor.background": "#282828",
+    //     "activityBar.background": "#232323",
+    //     "menu.background": "#282828",
+    //     "minimap.background": "#282828",
+    //     "panel.background": "#282828",
+    //     "sideBar.background": "#232323",
+    //     "terminal.background": "#232323",
+    //     "titleBar.activeBackground": "#232323",
+    //     "tab.activeBackground": "#232323",
+    //     "tab.inactiveBackground": "#232323",
+    //     "sideBarSectionHeader.background": "#232323",
+    //     "editor.lineHighlightBackground": "#333333",
+    //     "statusBar.background": "#232323",
+    //     "editorGroupHeader.tabsBackground": "#232323",
+    //     "notifications.background": "#232323",
+    //     "notificationCenterHeader.background": "#232323",
+    // },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.linting.mypyEnabled": true
 }

@@ -4,6 +4,7 @@ export PATH="$HOME/.poetry/bin:$PATH"
 export DATA="/mnt/d"
 export SEAGATE="/media/parafoxia/Seagate"
 export TUTS="$DATA/Programs/GitHub/carberra/tutorials"
+export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
 
 # Options
 ENABLE_CORRECTION="true"
