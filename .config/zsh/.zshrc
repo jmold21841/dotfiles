@@ -1,10 +1,7 @@
 # Paths
 export ZSH="$ZDOTDIR/oh-my-zsh"
-export PATH="$HOME/.poetry/bin:$PATH"
 export DATA="/mnt/d"
-export SEAGATE="/media/parafoxia/Seagate"
-export TUTS="$DATA/Programs/GitHub/carberra/tutorials"
-#export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
+export SEAGATE="/mnt/e"
 
 # Vars
 export LS_COLORS="ow=01;33:$LS_COLORS"
