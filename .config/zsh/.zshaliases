@@ -18,6 +18,7 @@ alias aliases="nano ~/.config/zsh/.zshaliases"
 alias config="nano ~/.config/zsh/.zshrc"
 alias count="find . -name '*.py' | sed 's/.*/\"&\"/' | xargs  wc -l"
 alias slack="isort . && black ."
+alias makedocs="cd docs && make html && cd .."
 
 # Git
 alias dfg="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"

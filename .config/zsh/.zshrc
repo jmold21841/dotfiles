@@ -2,6 +2,7 @@
 export ZSH="$ZDOTDIR/oh-my-zsh"
 export DATA="/mnt/d"
 export SEAGATE="/mnt/e"
+export THESIS="/mnt/d/Documents/University/Assignments/4th/Project"
 
 # Vars
 export LS_COLORS="ow=01;33:$LS_COLORS"
